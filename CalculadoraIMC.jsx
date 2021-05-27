@@ -77,7 +77,7 @@ export default class App extends React.Component {
           />
           <TextInput 
           style={styles.altura} 
-          label='Altura (com ponto)'
+          label='Altura ( com ponto )'
           onChangeText={valor => {
             this.setState({altura: valor.replace(',', '.')});
           }}
